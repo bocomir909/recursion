@@ -1,0 +1,27 @@
+====================
+Section 2. Recursion
+====================
+Stack memory - local variable, function/method calls and reference object variable. Can contains also stack frames. Fast to access, small in size.
+
+Each method is a new frame in the stack memory. Variables from the method are store in the stack frame of that method. 
+As soon the method/function finishes its frame is removed from the stack. Then any objcets that were referenced from the method are now eligble for garbage collection
+
+Heap memory - dynamic memory allocation. Bigger than stack memory. Objects are stored here. Slow to access, big in size.
+
+Every problem can be solved with iteration or recursion!
+
+Recursion - calling the same function from the function. There are tail and head recursion. More elegant that iteration.
+Twice as slow as iteration! 
+Breaks task into smaller substasks
+Always define a base case (when to terminate the algorithm)!
+
+Tail - recursive call at the end of the function. Similar to iteration/loop. No backtracking! Java doesnt optimize this!
+Head - recursive call at the beginning of the function. Needs more memory as it saves the state of the recusive function. Has backtracking
+
+
+
+
+
+
+
+
